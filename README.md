@@ -5,7 +5,7 @@ Allows very smoothly animated and versatile addition and removal of ListView ite
 
 Works on Android 2.2 and up.
 
-##Description
+## Description
 
 This code builds on AOSP code in order to animate both the removal and addition of ListView items smoothly and easily. Only implementing the ListViewAnimator interface and small tweaks to your adapter class are necessary in order to give your ListView smooth animations, regardless of layout complexity. This code was created because in my [News Alarm][news alarm] app, the traditional methods of resizing the views after swiping (via layoutParams) was jerky and unattractive on many devices. The [DevBytes][devbytes] AOSP code showed us how to make the removal animations very smooth, but did not take into account the addition of items.
 
@@ -13,7 +13,7 @@ This code builds on AOSP code in order to animate both the removal and addition 
 - Utilises the fantastic NineOldAndroids (Thanks [Jake Wharton][nineoldandroids])
 - Also includes content from SwipeToDismissUndoList (Thanks [Tim Roes][timroes])
 
-####[Sample apk][apk]
+#### [Sample apk][apk]
 <a href="https://play.google.com/store/apps/details?id=com.witheyjr.listviewanimator">
   <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
@@ -24,11 +24,11 @@ This code builds on AOSP code in order to animate both the removal and addition 
 
 
 
-##Usage
+## Usage
 
 Please download and see the sample app code for usage instructions and example.
 
-##License
+## License
 
     Copyright (c) 2014 J Withey
 
